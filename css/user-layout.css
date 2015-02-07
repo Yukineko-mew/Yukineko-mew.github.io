@@ -1,0 +1,9 @@
+.content-subhead a {
+	color: #3498db;
+	text-decoration: none;
+}
+
+.content-subhead a:hover {
+	color: #2980b9;
+	text-decoration: underline;
+}
