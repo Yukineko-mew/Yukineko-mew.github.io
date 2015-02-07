@@ -1,3 +1,4 @@
 # ポートフォリオサイト
 
-url: http://yukineko-mew.github.io
+github.ioのURL: http://yukineko-mew.github.io
+フリードメインのURL:http://yukineko.890m.com
