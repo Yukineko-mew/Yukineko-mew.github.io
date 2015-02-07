@@ -1,3 +1,3 @@
 # ポートフォリオサイト
 
-url: http://www.yukineko-mew.github.io
+url: http://yukineko-mew.github.io
