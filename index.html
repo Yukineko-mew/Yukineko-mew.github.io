@@ -16,9 +16,9 @@
 	<!--[if gt IE 8]><!-->
 		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
 	<!--<![endif]-->
-	
+
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	
+
 	<!--[if lte IE 8]>
     	<link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
 	<![endif]-->
@@ -30,21 +30,23 @@
 	<link rel="stylesheet" href="css/user-layout.css">
 	<link rel="stylesheet" type="text/css" href="css/flaticon.css">
 
+	<script type="text/javascript" src="js/smoothScroll.js"></script>
+
 </head>
 <body>
 
 <div class="header">
     <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
-        <a class="pure-menu-heading" href="">Portfolio Site</a>
+        <a class="pure-menu-heading" href="#">Portfolio Site</a>
 
         <ul>
-            <li class="pure-menu-selected"><a href="#">Home</a></li>
+            <li class="pure-menu-selected"><a href="#init">Home</a></li>
             <li><a href="#">Sign Up</a></li>
         </ul>
     </div>
 </div>
 
-<div class="splash-container">
+<div class="splash-container" id="init">
     <div class="splash">
         <h1 class="splash-head">Yuki猫のおうち</h1>
         <p class="splash-subhead">
@@ -53,31 +55,35 @@
             現在誠意作成中
         </p>
         <p>
-            <a href="#" class="pure-button pure-button-primary">どこに飛ばそう？</a>
+            <a href="#descript" class="pure-button pure-button-primary">プロフィール</a>
         </p>
     </div>
 </div>
 
-<div class="content-wrapper">
+<div class="content-wrapper" id="descript">
 	
-	<div class="l-box-lrg pure-g" >
+	<div class="l-box-lrg pure-g">
 		<h2 class="content-head is-center">
         	<i class="flaticon-12"></i>
         	プロフィール
         </h2>
         
         <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-        	<h3 class="content-subhead">基本情報</h3>
+        	<h3 class="content-subhead">
+        		<i class="fa fa-user"></i>
+        		基本情報
+        	</h3>
             <p>
-            	<i class="fa fa-user"></i>
-                小笠原 佑樹 (Ogasawara Yuki)<br/>
-                <i class="fa fa-paper-plane"></i>
-                b1012213@fun.ac.jp
+                Name: 小笠原 佑樹 (Ogasawara Yuki)<br/>
+                Mail: b1012213@fun.ac.jp
             </p>
         </div>
         
         <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-        	<h3 class="content-subhead">大学</h3>
+        	<h3 class="content-subhead">
+        		<i class="fa fa-graduation-cap"></i>
+        		大学
+        		</h3>
             <p>
                 公立はこだて未来大学 システム情報科学部<br/>
                 複雑系知能学科 知能システムコース<br/>
@@ -108,6 +114,7 @@
             	大学生協 学生委員会<br/>
             	webmaster Jr
             </p>
+            <button class="pure-button pure-button-primary">AND MOER</button>
         </div>
     </div>
 	
@@ -129,6 +136,7 @@
                 </ul>
                 上記のような書籍を読みながら，正しいオブジェクト指向設計での実装や，可読性の高いソースコードを書くように心がけています。
             </p>
+            <button class="pure-button pure-button-primary">AND MOER</button>
         </div>
 	</div>
 
@@ -147,13 +155,14 @@
         
         <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
             <p>
-                じゃぶじゃぶ内定を出したくなるような説明をいれる。
+                ちょっとリファクタリングやらんとぐちゃぐちゃでわかんねえな。<br/>
+                htmlのファイル分割ってできないの?                
             </p>
         </div>
     </div>
     
     	<!-- webアカウント -->
-    <div class="content" id="description">
+    <div class="content">
         <h2 class="content-head is-center">
         	<i class="flaticon-12"></i>
         	webアカウント
@@ -169,7 +178,7 @@
                     </a>
                 </h3>
                 <p>
-                    ガンガンアクセスしたくなる説明文。
+                    一週間に1回ほど、主に大学での活動などについて更新しています。
                 </p>
             </div>
             
@@ -182,7 +191,7 @@
                     </a>
                 </h3>
                 <p>
-                    めっちゃフォローしたくなる説明文。
+                    毎日取り留めのないことをつぶやいています。よろしければフォローお願いします。
                 </p>
             </div>
             
@@ -195,7 +204,7 @@
                     </a>
                 </h3>
                 <p>
-                    あたかもすぅぱぁぷろぐらまっぽく感じる説明文。
+                   あまり更新頻度は高くないですが、成果物のソースコードはGithubにて公開しています。
                 </p>
             </div>
             
@@ -208,21 +217,11 @@
                     </a>
                 </h3>
                 <p>
-                    ついつい購読したくなるような説明文。
+                    面白い技術を見つけたときに、稀に更新しています。
                 </p>
             </div>
         </div>
     </div>
-
-
-    <div class="ribbon pure-g">
-    	<div class="pure-u-1">
-        	<h2 class="content-head is-center content-head-ribbon">AND MORE....</h2>
-        	<p>
-        		もしかしたら増えるかもしれない...?
-        	</p>
-    	</div>
-	</div>
     
     <!-- フッター -->
     <div class="footer l-box is-center">
